@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Pick a Pitch</title>
+   <script src="https://kit.fontawesome.com/81708399a0.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Arvo:400,700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles/sass/style.css">
+</head>
+<body>
+   <header>
+      <h1>Pick a Pitch</h1>
+   </header>
+   <main>
+      <section class="formSection">
+         <form action="">
+         <fieldset>
+            <h2>Speed</h2>
+            <div class="inputDiv">
+               <label for="pitchSpeed">Faster</label>
+               <input type="radio" name="selectSpeed" value="fastPitch">
+               <label for="pitchSpeed">Slower</label>
+               <input type="radio" name="selectSpeed" value="slowPitch">
+            </div>
+         </fieldset>
+         <fieldset>
+            <h2>Movement</h2>
+            <div class="inputDiv">
+               <label for="selectMovement">Top to Bottom</label>
+               <input type="radio" name="selectMovement" value="topBottomMovement">
+               <label for="selectMovement">Side to Side</label>
+               <input type="radio" name="selectMovement" value="sideToSideMovement">
+               <label for="selectMovement">Little to No Movement</label>
+               <input type="radio" name="selectMovement" value="littleToNone">
+            </div>
+         </fieldset>
+         <fieldset>
+            <h2>Weird??</h2>
+            <div class="inputDiv">
+               <label for="selectWeird">Give me a Weird One</label>
+               <input type="radio" name="weirdPitch" value="weirdYes">
+               <label for="selectWeird">Give me a Regular Pitch</label>
+               <input type="radio" name="weirdPitch" value="weirdNo">
+            </div>
+         </fieldset>
+         <div class="buttonDiv">
+            <input type="submit" value="Submit"></input>
+            <input type="reset" id="reset" value="Reset"></input>
+         </div>
+      </form>
+   </section>
+   
+   <section class="userResult">
+
+      <h3 class="error"></h3>
+      <h3 class="noSelection"></h3>
+
+      <div id="fourSeamFastball">
+         <div class="titleDiv">
+            <h3>Four Seam Fastball</h3>
+            <a href='#' class='closeDiv'><i class="fas fa-trash"></i></a>
+         </div>
+         <div class="contentWrapper">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ratione delectus laborum amet deleniti voluptatibus, esse labore modi aut quibusdam eum expedita voluptatem dignissimos officia quidem voluptates. Deleniti, labore eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum mollitia ipsum voluptates adipisci sint, dolor doloremque suscipit libero ratione repudiandae odit cumque perferendis molestiae magnam? Velit asperiores facere quam.</p>
+            <div class="mainContentImgDiv">
+               <figure>
+                  <img src="assets/fourSeamGrip.png" alt="A picture diagram of a four seam baseball grip">
+                  <figcaption>A Four Seam Fastball Grip</figcaption>
+               </figure>
+            </div>
+            <a href="#" class="showMore">
+               <h3>Show More <i class="fas fa-chevron-down"></i></h3>
+            </a>
+         </div>
+
+         <div class="extraContentWrapper">
+            <div class="fourSeamFastball famousPitcher">
+               <button>Show More</button>
+            </div>
+            <div class="fourSeamFastball highlights">
+               <button>Show More</button>
+            </div>
+         </div>
+      </div>
+
+      <div id="twoSeamFastball">
+         <div class="titleDiv">
+            <h3>Two Seam Fastball</h3>
+            <a href='#' class='closeDiv'><i class="fas fa-trash"></i></span></a>
+         </div>
+         <div class="contentWrapper">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ratione delectus laborum amet deleniti voluptatibus, esse labore modi aut quibusdam eum expedita voluptatem dignissimos officia quidem voluptates. Deleniti, labore eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum mollitia ipsum voluptates adipisci sint, dolor doloremque suscipit libero ratione repudiandae odit cumque perferendis molestiae magnam? Velit asperiores facere quam.</p>
+         </div>
+         <div class="famousPitcher"><button>Show More</button></div>
+         <div class="highlights"><button>Show More</button></div>
+      </div>
+      <div id="changeUp">
+         <div class="titleDiv">
+            <h3>Change Up</h3>
+            <a href='#'class='closeDiv'><i class="fas fa-trash"></i></span></a>
+         </div>
+         <div class="contentWrapper">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ratione delectus laborum amet deleniti voluptatibus, esse labore modi aut quibusdam eum expedita voluptatem dignissimos officia quidem voluptates. Deleniti, labore eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum mollitia ipsum voluptates adipisci sint, dolor doloremque suscipit libero ratione repudiandae odit cumque perferendis molestiae magnam? Velit asperiores facere quam.</p>
+         </div>
+         <div class="famousPitcher"><button>Show More</button></div>
+         <div class="highlights"><button>Show More</button></div>
+      </div>
+      <div id="splitter">
+         <div class="titleDiv">
+            <h3>Splitter</h3>
+            <a href='#'class='closeDiv'><i class="fas fa-trash"></i></a>
+         </div>
+         <div class="contentWrapper">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ratione delectus laborum amet deleniti voluptatibus, esse labore modi aut quibusdam eum expedita voluptatem dignissimos officia quidem voluptates. Deleniti, labore eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum mollitia ipsum voluptates adipisci sint, dolor doloremque suscipit libero ratione repudiandae odit cumque perferendis molestiae magnam? Velit asperiores facere quam.</p>
+         </div>
+         <div class="famousPitcher"><button>Show More</button></div>
+         <div class="highlights"><button>Show More</button></div>
+      </div>
+      <div id="cutter">
+         <div class="titleDiv">
+            <h3>Cutter</h3>
+            <a href='#'class='closeDiv'><i class="fas fa-trash"></i></a>
+         </div>
+         <div class="contentWrapper">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ratione delectus laborum amet deleniti voluptatibus, esse labore modi aut quibusdam eum expedita voluptatem dignissimos officia quidem voluptates. Deleniti, labore eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum mollitia ipsum voluptates adipisci sint, dolor doloremque suscipit libero ratione repudiandae odit cumque perferendis molestiae magnam? Velit asperiores facere quam.</p>
+         </div>
+         <div class="famousPitcher"><button>Show More</button></div>
+         <div class="highlights"><button>Show More</button></div>
+      </div>
+      <div id="forkball">
+         <div class="titleDiv">
+            <h3>Forkball</h3>
+            <a href='#'class='closeDiv'><i class="fas fa-trash"></i></a>
+         </div>
+         <div class="contentWrapper">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ratione delectus laborum amet deleniti voluptatibus, esse labore modi aut quibusdam eum expedita voluptatem dignissimos officia quidem voluptates. Deleniti, labore eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum mollitia ipsum voluptates adipisci sint, dolor doloremque suscipit libero ratione repudiandae odit cumque perferendis molestiae magnam? Velit asperiores facere quam.</p>
+         </div>
+         <div class="famousPitcher"><button>Show More</button></div>
+         <div class="highlights"><button>Show More</button></div>
+      </div>
+      <div id="curveball">
+         <div class="titleDiv">
+            <h3>Curveball</h3>
+            <a href='#'class='closeDiv'><i class="fas fa-trash"></i></a>
+         </div>
+         <div class="contentWrapper">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ratione delectus laborum amet deleniti voluptatibus, esse labore modi aut quibusdam eum expedita voluptatem dignissimos officia quidem voluptates. Deleniti, labore eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum mollitia ipsum voluptates adipisci sint, dolor doloremque suscipit libero ratione repudiandae odit cumque perferendis molestiae magnam? Velit asperiores facere quam.</p>
+         </div>
+         <div class="famousPitcher"><button>Show More</button></div>
+         <div class="highlights"><button>Show More</button></div>
+      </div>
+      <div id="slider">
+         <div class="titleDiv">
+            <h3>Slider</h3>
+            <a href='#'class='closeDiv'><i class="fas fa-trash"></i></a>
+         </div>
+         <div class="contentWrapper">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ratione delectus laborum amet deleniti voluptatibus, esse labore modi aut quibusdam eum expedita voluptatem dignissimos officia quidem voluptates. Deleniti, labore eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum mollitia ipsum voluptates adipisci sint, dolor doloremque suscipit libero ratione repudiandae odit cumque perferendis molestiae magnam? Velit asperiores facere quam.</p>
+         </div>
+         <div class="famousPitcher"><button>Show More</button></div>
+         <div class="highlights"><button>Show More</button></div>
+      </div>
+      <div id="knuckleball">
+         <div class="titleDiv">
+            <h3>Knuckleball</h3>
+            <a href='#'class='closeDiv'><i class="fas fa-trash"></i></a>
+         </div>
+         <div class="contentWrapper">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ratione delectus laborum amet deleniti voluptatibus, esse labore modi aut quibusdam eum expedita voluptatem dignissimos officia quidem voluptates. Deleniti, labore eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum mollitia ipsum voluptates adipisci sint, dolor doloremque suscipit libero ratione repudiandae odit cumque perferendis molestiae magnam? Velit asperiores facere quam.</p>
+         </div>
+         <div class="famousPitcher"><button>Show More</button></div>
+         <div class="highlights"><button>Show More</button></div>
+      </div>
+      <div id="palmball">
+         <div class="titleDiv">
+            <h3>Palmball</h3>
+            <a href='#'class='closeDiv'><i class="fas fa-trash"></i></a>
+         </div>
+         <div class="contentWrapper">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ratione delectus laborum amet deleniti voluptatibus, esse labore modi aut quibusdam eum expedita voluptatem dignissimos officia quidem voluptates. Deleniti, labore eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum mollitia ipsum voluptates adipisci sint, dolor doloremque suscipit libero ratione repudiandae odit cumque perferendis molestiae magnam? Velit asperiores facere quam.</p>
+         </div>
+         <div class="famousPitcher"><button>Show More</button></div>
+         <div class="highlights"><button>Show More</button></div>
+      </div>
+      <div id="screwball">
+         <div class="titleDiv">
+            <h3>Screwball</h3>
+            <a href='#'class='closeDiv'><i class="fas fa-trash"></i></a>
+         </div>
+         <div class="contentWrapper">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ratione delectus laborum amet deleniti voluptatibus, esse labore modi aut quibusdam eum expedita voluptatem dignissimos officia quidem voluptates. Deleniti, labore eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum mollitia ipsum voluptates adipisci sint, dolor doloremque suscipit libero ratione repudiandae odit cumque perferendis molestiae magnam? Velit asperiores facere quam.</p>
+         </div>
+         <div class="famousPitcher"><button>Show More</button></div>
+         <div class="highlights"><button>Show More</button></div>
+      </div>
+      <div id="slurve">
+         <div class="titleDiv">
+            <h3>Slurve</h3>
+            <a href='#'class='closeDiv'><i class="fas fa-trash"></i></a>
+         </div>
+         <div class="contentWrapper">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ratione delectus laborum amet deleniti voluptatibus, esse labore modi aut quibusdam eum expedita voluptatem dignissimos officia quidem voluptates. Deleniti, labore eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum mollitia ipsum voluptates adipisci sint, dolor doloremque suscipit libero ratione repudiandae odit cumque perferendis molestiae magnam? Velit asperiores facere quam.</p>
+         </div>
+         <div class="famousPitcher"><button>Show More</button></div>
+         <div class="highlights"><button>Show More</button></div>
+      </div>
+   </section>
+   </main>
+   <footer>
+      <p>&copy GDK Designs</p>
+   </footer>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	<script src="script.js"></script>
+   
+</body>
+</html>
